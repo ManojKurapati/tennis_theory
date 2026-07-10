@@ -76,20 +76,20 @@ export default function Services() {
                 </span>
                 <h4 className="text-xl font-display font-light tracking-wide text-tennis-cream uppercase">Single-Stroke Diagnostic</h4>
                 <p className="text-xs text-slate-400 leading-relaxed font-sans font-light tracking-wide">
-                  Deep-dive analysis of a single stroke profile (e.g. Serve ONLY or Forehand ONLY). Ideal for targeting a persistent technical hitch.
+                  Deep-dive analysis of a single stroke (e.g., Serve ONLY or Forehand ONLY). Ideal for fixing a persistent error.
                 </p>
                 <ul className="space-y-4.5 pt-4 border-t border-luxury">
                   <li className="text-xs text-slate-300 flex items-center gap-3 font-light tracking-wide">
                     <ShieldCheck className="w-4 h-4 text-tennis-gold" />
-                    Complete 30-point segment coordinate mapping
+                    Complete 30-point skeletal check
                   </li>
                   <li className="text-xs text-slate-300 flex items-center gap-3 font-light tracking-wide">
                     <ShieldCheck className="w-4 h-4 text-tennis-gold" />
-                    Kinetic sequencing timing calculations
+                    Power transfer timing check
                   </li>
                   <li className="text-xs text-slate-300 flex items-center gap-3 font-light tracking-wide">
                     <ShieldCheck className="w-4 h-4 text-tennis-gold" />
-                    3 Custom corrective video drills from Hans
+                    3 Custom corrective drills from Hans
                   </li>
                 </ul>
               </div>
@@ -119,24 +119,24 @@ export default function Services() {
                 </span>
                 <h4 className="text-xl font-display font-light tracking-wide text-tennis-cream uppercase">Complete 90-Point Analysis</h4>
                 <p className="text-xs text-slate-300 leading-relaxed font-sans font-light tracking-wide">
-                  Comprehensive review of your entire tennis framework: Serve mechanics, forehand, backhand, and dynamic court movement profiles.
+                  Comprehensive review of your complete game: serve, forehand, backhand, and footwork movement.
                 </p>
                 <ul className="space-y-4.5 pt-4 border-t border-luxury">
                   <li className="text-xs text-slate-200 flex items-center gap-3 font-light tracking-wide">
                     <ShieldCheck className="w-4 h-4 text-tennis-kinetic" />
-                    Complete 90-point joints & torque analysis
+                    Complete 90-point skeletal & joint rotation check
                   </li>
                   <li className="text-xs text-slate-200 flex items-center gap-3 font-light tracking-wide">
                     <ShieldCheck className="w-4 h-4 text-tennis-kinetic" />
-                    Kinetic sequencing timing calculations
+                    Power transfer timing check
                   </li>
                   <li className="text-xs text-slate-200 flex items-center gap-3 font-light tracking-wide">
                     <ShieldCheck className="w-4 h-4 text-tennis-kinetic" />
-                    Injury risk and joint workload thresholds
+                    Injury risk & joint strain check
                   </li>
                   <li className="text-xs text-slate-200 flex items-center gap-3 font-light tracking-wide">
                     <ShieldCheck className="w-4 h-4 text-tennis-kinetic" />
-                    Full matching overlays next to elite pro profiles
+                    Side-by-side video overlays next to pro players
                   </li>
                 </ul>
               </div>

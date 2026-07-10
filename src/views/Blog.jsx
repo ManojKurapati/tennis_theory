@@ -9,62 +9,62 @@ export default function Blog() {
   const articles = [
     {
       id: 1,
-      title: "The Kinetic Chain in the Modern Serve",
-      summary: "Understand how energy flows from the ground up through your legs, core, shoulders, and racquet tip. Minor delays can cost you up to 15 MPH in racquet speed.",
-      content: `The tennis serve is a complex biomechanical movement that relies on a concept called the **Kinetic Chain**. 
+      title: "The Power Chain: How to Serve Faster with Less Effort",
+      summary: "Understand how force transfers from your feet, up through your hips, core, and shoulders into the racquet. Even small timing delays can cost you 15 MPH in serve speed.",
+      content: `The tennis serve is a full-body movement that relies on what coaches call the **Power Chain** (or kinetic chain). 
       
-Instead of generating force solely from the shoulder or arm, elite players coordinate sequential muscle activations starting from the feet up to the hand.
+Instead of hitting the ball with just your shoulder or arm, elite players coordinate their muscle movements in a smooth sequence starting from the feet up.
 
-### The 4 Major Kinetic Links:
-1. **The Ground Drive (Legs)**: Your legs act as the initial force coil. By flexing the knees to a target angle of 115° to 125°, you store mechanical elastic energy.
-2. **Core Torsion (Pelvis & Hips)**: As the knees drive upward, the hips rotate first, creating a twisting separation between the pelvis and the shoulders. This 'stretch-shortening cycle' multiplies potential energy.
-3. **Shoulder Carriage & Rotation**: The torso snaps open, bringing the dominant shoulder forward. The elbow extends as it tracks the vertical path.
-4. **Wrist Release & Pronation**: The forearm pronates outwards just before contact, releasing the accumulated force vector straight into the ball.
+### The 4 Power Links:
+- **The Leg Load**: Your legs act as your power source. By bending your knees as you throw the ball up, you store energy like a coiled spring.
+- **The Torso Twist**: As your legs drive upward, your hips turn first, twisting your core against your shoulders. This stretch multiplies your swinging power.
+- **The Shoulder Turn**: Your upper body snaps open, bringing your hitting shoulder forward while your elbow extends upward.
+- **The Wrist Snap**: Your arm rolls outward (pronation) just before impact, releasing all the stored speed directly into the ball.
 
-### Finding Energy Leaks
-An 'energy leak' occurs when one link in this chain decelerates or triggers too early. For instance, if your hips rotate after you begin your swing rather than before, you lose up to 30% of your potential racquet velocity. This forces the shoulder to overcompensate, significantly elevating the risk of rotator cuff strains.`,
+### Finding Power Leaks
+A 'power leak' occurs when one link in this sequence is late or out of sync. For example, if you start swinging your arm before your hips turn, you lose up to 30% of your racquet speed. This forces your shoulder to work twice as hard, often leading to rotator cuff strains.`,
       tag: "Serve Mechanics",
       date: "Dec 12, 2025",
       readTime: "6 min read",
-      author: "Hans G., B.S. BME"
+      author: "Hans G., USPTA Coach"
     },
     {
       id: 2,
-      title: "Wrist Lag: Power Secret or Tennis Elbow Trap?",
-      summary: "We break down the forearm mechanics of the modern ATP forehand. Learn the exact angle ranges to prevent tendon loading issues.",
-      content: `The 'wrist lag' is a hallmark of modern professional forehands. It refers to the position where the racquet head lags behind the hand during the acceleration phase, snapping forward just before contact. 
+      title: "Wrist Lag: How to Boost Forehand Speed Without Tennis Elbow",
+      summary: "We break down the wrist snap mechanics of the modern ATP forehand. Learn how to get maximum racquet speed without putting dangerous stress on your elbow.",
+      content: `The 'wrist lag' is the secret behind heavy modern forehands. It describes how the racquet head drags behind the hand during your forward swing, snapping forward at the last split-second before contact. 
 
-While wrist lag is essential for generating heavy topspin and high racquet speeds, incorrect execution is the leading cause of medial and lateral epicondylitis (Tennis Elbow).
+While this lag creates massive topspin and racquet head speed, doing it wrong is the #1 cause of Tennis Elbow.
 
-### The Mechanics of Safe Wrist Lag:
-- **Relaxed Grip Tension**: Squeezing the grip at a 9/10 tension locks the forearm flexors, preventing natural lag and sending shockwaves directly to the elbow tendon. Maintain tension at a 3/10 or 4/10.
-- **Optimal Angle Ranges**: At maximum lag, the angle between the forearm and the racquet shaft should never exceed 110°. Forcing a tighter angle places extreme shearing loads on the wrist ligaments.
-- **Impact Position**: The wrist must lock back into a stable extension position immediately prior to impact. A loose or flipping wrist at the contact point leads to massive variance in shot depth and chronic tendon inflammation.
+### How to Dynamic Lag Safely:
+- **Relax Your Grip**: Squeezing your handle too hard (9/10 tension) locks your forearm muscles. This stops the natural lag and sends jarring shockwaves straight to your elbow tendon. Keep your grip loose (about 3/10 tension).
+- **Avoid Extreme Angles**: The angle between your arm and the racquet shaft should be natural. Pulling your wrist back too far puts heavy stress on your wrist ligaments.
+- **Firm Contact**: Your wrist must feel firm and stable right at impact. A loose or flipping wrist at contact leads to erratic shots and chronic elbow pain.
 
-### Diagnostic Takeaway
-If you experience elbow soreness after hitting heavy groundstrokes, your wrist is likely dragging behind the hand too late, or you are 'snapping' the wrist at impact rather than relying on natural shoulder-driven rotation.`,
+### Practical Takeaway
+If your elbow is sore after hitting groundstrokes, you are likely either squeezing the racquet too tight or snapping your wrist at impact instead of letting your body rotation swing the arm.`,
       tag: "Forehand Analytics",
       date: "Nov 28, 2025",
       readTime: "5 min read",
-      author: "Hans G., B.S. BME"
+      author: "Hans G., USPTA Coach"
     },
     {
       id: 3,
-      title: "Footwork Dynamics & Ground Force Coefficients",
-      summary: "How stance configuration (open, semi-open, closed) affects pelvic rotation speed and baseline recovery vectors.",
-      content: `In tennis biomechanics, footwork is not just about running to the ball—it is about establishing a solid **Base of Support (BoS)** to couple ground reaction forces.
+      title: "Stance Secret: How Footwork Dictates Groundstroke Power",
+      summary: "How choosing between an open, semi-open, or closed stance affects your body rotation speed and your ability to recover quickly.",
+      content: `In tennis, footwork isn't just about running to the ball—it is about setting a solid base so you can transfer power into your shots.
 
-### Stance Variations and Pelvic Torque:
-1. **Open Stance**: Excellent for wide balls and modern baseline rallies. Both feet are aligned parallel to the baseline. It allows for immediate lateral loading and rapid recovery back to the center of the court.
-2. **Semi-Open Stance**: The optimal balance for mid-court baseline hits. The front foot is aligned at a 45-degree angle. This setup allows for simultaneous lateral shift and forward linear drive.
-3. **Closed Stance**: Best suited for slice approaches and moving forward. It maximizes linear momentum but restricts pelvic rotation, slowing down recovery steps by up to 0.4 seconds.
+### Stance Styles and Torso Turn:
+- **Open Stance**: Excellent for wide balls and deep baseline rallies. Your feet are parallel to the baseline. This lets you load weight onto your outside leg and push back to the center of the court instantly.
+- **Semi-Open Stance**: The ideal choice for standard groundstrokes. Your front foot is at a 45-degree angle. This setup lets you step forward while still rotating your hips.
+- **Closed Stance**: Best for slice approaches and moving to the net. While it drives you forward, it limits your hip rotation, making it harder to recover back into position quickly.
 
-### Ground Force Coefficient
-Our 90-point reports analyze your stance width relative to your height. An narrow base restricts knee compression limits, while a base that is too wide prevents rapid pelvic release. The golden ratio for elite baseline hitting lies between **0.75 and 0.85 times your height**.`,
+### Finding Your Balance Width
+Our reports check your stance width compared to your height. A stance that is too narrow makes you lose balance, while a stance that is too wide locks your hips. The sweet spot for balanced hitting is having a stance width between **75% and 85% of your height** to allow natural hip release.`,
       tag: "Footwork & Balance",
       date: "Oct 15, 2025",
       readTime: "4 min read",
-      author: "Hans G., B.S. BME"
+      author: "Hans G., USPTA Coach"
     }
   ];
 
@@ -75,17 +75,19 @@ Our 90-point reports analyze your stance width relative to your height. An narro
     : articles.filter(a => a.tag === activeFilter);
 
   return (
-    <div className="w-full pt-32 pb-24 bg-tennis-dark bg-grid-pattern min-h-screen">
-      <div className="container mx-auto px-6 max-w-5xl">
+    <div className="w-full pt-40 pb-32 bg-tennis-dark bg-grid-pattern min-h-screen">
+      <div className="container mx-auto px-8 md:px-12 max-w-5xl">
         
         {/* Header */}
         <div className="text-center mb-16">
-          <span className="text-xs text-tennis-gold font-bold tracking-widest uppercase">Biomechanical Intelligence</span>
-          <h2 className="text-3xl md:text-5xl font-display font-bold text-tennis-cream mt-2">
-            The Biomechanics Blog
+          <span className="text-xs text-tennis-gold font-bold tracking-ultra uppercase block mb-3 font-mono">Performance Tips</span>
+          <h2 className="text-3xl md:text-5xl font-display font-light text-tennis-cream mt-2 leading-tight tracking-wide">
+            The Tennis Science Blog
           </h2>
-          <p className="text-xs text-slate-400 mt-2 font-sans font-light">Discover the physics, joint loads, and kinetic rules governing elite tennis play.</p>
-          <div className="w-16 h-[2px] bg-tennis-gold mx-auto mt-4" />
+          <p className="text-xs text-slate-400 mt-3 max-w-xl mx-auto font-sans font-light tracking-wide">
+            Discover simple tips, player case studies, and visual guides to improve your court movement.
+          </p>
+          <div className="w-16 h-[0.5px] bg-tennis-gold mx-auto mt-4" />
         </div>
 
         {/* Filter Bar */}
@@ -95,10 +97,10 @@ Our 90-point reports analyze your stance width relative to your height. An narro
             <button
               key={tag}
               onClick={() => setActiveFilter(tag)}
-              className={`px-4 py-2 rounded-xl border text-[10px] font-mono font-bold uppercase tracking-wider transition-all duration-300 ${
+              className={`px-4 py-2 rounded-xl border text-[10px] font-mono font-bold uppercase tracking-wider transition-all duration-300 cursor-pointer ${
                 activeFilter === tag 
                   ? 'bg-tennis-gold text-tennis-dark border-tennis-gold' 
-                  : 'bg-tennis-deep/40 text-slate-400 border-tennis-gold/10 hover:border-tennis-gold/30 hover:text-tennis-cream'
+                  : 'bg-[#002B1A]/80 text-slate-400 border-tennis-gold/15 hover:border-tennis-gold/30 hover:text-tennis-cream'
               }`}
             >
               {tag}
@@ -118,7 +120,7 @@ Our 90-point reports analyze your stance width relative to your height. An narro
                   {article.tag}
                 </span>
                 
-                <h4 className="text-base md:text-lg font-display font-semibold text-tennis-cream leading-snug">
+                <h4 className="text-sm font-display font-semibold text-tennis-cream tracking-wide uppercase leading-snug">
                   {article.title}
                 </h4>
                 
@@ -129,13 +131,13 @@ Our 90-point reports analyze your stance width relative to your height. An narro
 
               <div className="mt-8 pt-4 border-t border-tennis-gold/10">
                 <div className="flex items-center justify-between text-[10px] text-slate-500 font-mono mb-4">
-                  <span className="flex items-center gap-1"><Calendar className="w-3 h-3" /> {article.date}</span>
-                  <span className="flex items-center gap-1"><Clock className="w-3 h-3" /> {article.readTime}</span>
+                  <span className="flex items-center gap-1"><Calendar className="w-3.5 h-3.5" /> {article.date}</span>
+                  <span className="flex items-center gap-1"><Clock className="w-3.5 h-3.5" /> {article.readTime}</span>
                 </div>
 
                 <button
                   onClick={() => setSelectedArticle(article)}
-                  className="w-full py-3 rounded-xl bg-tennis-deep hover:bg-tennis-medium border border-tennis-gold/30 hover:border-tennis-gold text-tennis-gold text-xs font-semibold uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5 cursor-pointer"
+                  className="w-full py-3 rounded-xl bg-tennis-deep hover:bg-tennis-medium border border-tennis-gold/30 hover:border-tennis-gold text-tennis-gold text-[10px] font-semibold uppercase tracking-widest transition-colors flex items-center justify-center gap-1.5 cursor-pointer"
                 >
                   Read Article <ArrowRight className="w-3.5 h-3.5" />
                 </button>
@@ -153,7 +155,7 @@ Our 90-point reports analyze your stance width relative to your height. An narro
               <div className="flex items-center justify-between border-b border-tennis-gold/15 p-5 bg-[#002B1A]/40">
                 <div>
                   <span className="text-[9px] font-mono text-tennis-gold uppercase tracking-wider">{selectedArticle.tag}</span>
-                  <h4 className="text-base md:text-xl font-display font-semibold text-tennis-cream mt-0.5">{selectedArticle.title}</h4>
+                  <h4 className="text-sm font-display font-semibold text-tennis-cream mt-0.5 uppercase tracking-wide">{selectedArticle.title}</h4>
                 </div>
                 <button
                   onClick={() => setSelectedArticle(null)}
@@ -164,7 +166,7 @@ Our 90-point reports analyze your stance width relative to your height. An narro
               </div>
 
               {/* Scrollable Content Body */}
-              <div className="overflow-y-auto p-6 md:p-8 space-y-6 text-xs md:text-sm text-slate-300 leading-relaxed font-sans scroll-smooth">
+              <div className="overflow-y-auto p-6 md:p-8 space-y-6 text-xs md:text-sm text-slate-350 leading-relaxed font-sans scroll-smooth">
                 {/* Meta details */}
                 <div className="flex flex-wrap gap-4 text-xs font-mono text-slate-500 border-b border-tennis-gold/10 pb-4">
                   <span className="flex items-center gap-1"><User className="w-3.5 h-3.5 text-tennis-gold" /> By {selectedArticle.author}</span>
@@ -210,7 +212,7 @@ Our 90-point reports analyze your stance width relative to your height. An narro
                 <div className="bg-[#002B1A]/40 border border-tennis-gold/20 p-6 rounded-xl text-center space-y-3 mt-8">
                   <Sparkles className="w-6 h-6 text-tennis-gold mx-auto" />
                   <span className="block font-display font-semibold text-tennis-cream text-xs">Want a customized mechanical assessment of your stroke?</span>
-                  <p className="text-[11px] text-slate-400 leading-normal max-w-sm mx-auto font-light">
+                  <p className="text-[11px] text-slate-450 leading-normal max-w-sm mx-auto font-light">
                     Hans will break down your shoulder, elbow, wrist and hip coordinates in our professional 90-Point report.
                   </p>
                   

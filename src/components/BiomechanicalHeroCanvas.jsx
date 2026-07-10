@@ -312,12 +312,12 @@ export default function BiomechanicalHeroCanvas() {
       
       ctx.fillStyle = '#C9A227';
       ctx.font = 'bold 10px Outfit';
-      ctx.fillText("BIOMECHANICAL ENGINE v5.0", 42, 48);
+      ctx.fillText("STROKE ANALYZER v5.0", 42, 48);
       ctx.fillStyle = 'rgba(251, 249, 244, 0.85)';
       ctx.font = '8.5px monospace';
       ctx.fillText(`STROKE: ${activeStroke.toUpperCase()}`, 42, 65);
       ctx.fillText(`VELOCITY: ${activeStroke === 'serve' ? Math.round(142 + Math.sin(progress) * 22) : Math.round(90 + Math.cos(progress) * 14)} MPH`, 42, 80);
-      ctx.fillText(`STATUS: KINETIC_OPTIMAL`, 42, 95);
+      ctx.fillText(`STATUS: SEQUENCE_SMOOTH`, 42, 95);
 
       // Upper Right telemetry
       const hudRWidth = 190;
@@ -327,9 +327,9 @@ export default function BiomechanicalHeroCanvas() {
       
       ctx.fillStyle = '#00F0FF';
       ctx.font = 'bold 9px Outfit';
-      ctx.fillText("KINETIC TRANSMISSION RATIO", hudRX + 12, 46);
+      ctx.fillText("STROKE POWER SEQUENCE", hudRX + 12, 46);
       
-      const energySegments = ['FOOT COIL', 'HIP TORQUE', 'SHOULDER ROT', 'WRIST SNAP'];
+      const energySegments = ['LEG DRIVE', 'HIP TURN', 'SHOULDER ROTATION', 'WRIST SNAP'];
       energySegments.forEach((segment, idx) => {
         const val = Math.min(100, Math.max(12, Math.abs(Math.sin(progress - idx * 0.45)) * 100));
         ctx.fillStyle = 'rgba(251, 249, 244, 0.5)';

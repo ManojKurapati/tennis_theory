@@ -65,7 +65,7 @@ export default function Home({ setPage }) {
         {/* Parallax Widescreen breathing scale */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
           <div 
-            className="w-full h-full bg-[url('https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?q=80&w=2000')] bg-cover bg-center opacity-[0.04] mix-blend-overlay cinematic-zoom" 
+            className="w-full h-full bg-[url('https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?q=80&w=2000')] bg-cover bg-center opacity-[0.18] mix-blend-overlay cinematic-zoom" 
           />
         </div>
         
@@ -94,7 +94,7 @@ export default function Home({ setPage }) {
 
             {/* Description */}
             <p className="text-xs md:text-sm text-slate-400 max-w-md leading-relaxed font-sans font-light tracking-widest uppercase">
-              We translate smartphone footage into skeletal coordinate maps. Calibrate angles, synchronize kinetic sequencing, and maximize torque.
+              We turn your smartphone video into clear skeletal tracing lines. Find out exactly where you are losing racquet speed, timing your hits late, or straining your joints.
             </p>
 
             {/* CTA Buttons */}
@@ -115,24 +115,24 @@ export default function Home({ setPage }) {
 
       {/* 2. STATS BAR (Sunset clay-court background with thin borders) */}
       <section className="border-y border-luxury bg-[#00170f]/90 backdrop-blur-md py-14 relative overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center opacity-[0.03] pointer-events-none bg-[url('https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=2000')]" />
+        <div className="absolute inset-0 bg-cover bg-center opacity-[0.10] pointer-events-none bg-[url('https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=2000')]" />
         
         <div className="container mx-auto px-8 md:px-12 grid grid-cols-2 md:grid-cols-4 gap-8 relative z-10">
           <div className="text-center">
             <span className="block text-4xl md:text-6xl font-display font-light text-gold-luxury">500+</span>
-            <span className="block text-[9px] font-mono text-slate-400 uppercase tracking-ultra mt-3">ATHLETES MAPPED</span>
+            <span className="block text-[9px] font-mono text-slate-400 uppercase tracking-ultra mt-3">PLAYERS ANALYZED</span>
           </div>
           <div className="text-center border-l border-luxury">
             <span className="block text-4xl md:text-6xl font-display font-light text-tennis-kinetic">15%+</span>
-            <span className="block text-[9px] font-mono text-slate-400 uppercase tracking-ultra mt-3">VELOCITY BOOST</span>
+            <span className="block text-[9px] font-mono text-slate-400 uppercase tracking-ultra mt-3">RACQUET SPEED BOOST</span>
           </div>
           <div className="text-center border-l border-luxury">
             <span className="block text-4xl md:text-6xl font-display font-light text-tennis-diagnostic">78%</span>
-            <span className="block text-[9px] font-mono text-slate-400 uppercase tracking-ultra mt-3">STRAIN DEVIATION RISK REDUCTION</span>
+            <span className="block text-[9px] font-mono text-slate-400 uppercase tracking-ultra mt-3">INJURY RISK REDUCTION</span>
           </div>
           <div className="text-center border-l border-luxury">
             <span className="block text-4xl md:text-6xl font-display font-light text-tennis-cream">4.9★</span>
-            <span className="block text-[9px] font-mono text-slate-400 uppercase tracking-ultra mt-3">COACH EVALUATION STANDARD</span>
+            <span className="block text-[9px] font-mono text-slate-400 uppercase tracking-ultra mt-3">PLAYER & COACH RATING</span>
           </div>
         </div>
       </section>
@@ -182,12 +182,12 @@ export default function Home({ setPage }) {
                       transition={{ delay: 0.75, duration: 0.3 }}
                     />
                   </svg>
-                  <span className="absolute bottom-1 right-2 text-[7px] font-mono text-slate-500 tracking-wider">[COILING VECTOR]</span>
+                  <span className="absolute bottom-1 right-2 text-[7px] font-mono text-slate-500 tracking-wider">[LEG LOAD PATH]</span>
                 </div>
 
-                <h4 className="font-display font-semibold text-sm tracking-luxury uppercase text-tennis-cream">Upload Stroke</h4>
+                <h4 className="font-display font-semibold text-sm tracking-luxury uppercase text-tennis-cream">Record & Send</h4>
                 <p className="text-[11px] text-slate-400 mt-3 leading-relaxed font-sans font-light tracking-wide">
-                  Record your stroke (serve or groundstrokes) in slow motion at 60/120fps from clear perpendicular angles and upload securely.
+                  Record your serve or groundstroke in slow motion on your smartphone. No complex setups—just capture a clean view of your hit.
                 </p>
               </div>
             </div>
@@ -223,12 +223,12 @@ export default function Home({ setPage }) {
                       transition={{ repeat: Infinity, duration: 1.2, delay: 0.6 }}
                     />
                   </svg>
-                  <span className="absolute bottom-1 right-2 text-[7px] font-mono text-slate-500 tracking-wider">[JOINT TELEMETRY]</span>
+                  <span className="absolute bottom-1 right-2 text-[7px] font-mono text-slate-500 tracking-wider">[SKELETAL TRACING]</span>
                 </div>
 
-                <h4 className="font-display font-semibold text-sm tracking-luxury uppercase text-tennis-cream">Skeletal Calibration</h4>
+                <h4 className="font-display font-semibold text-sm tracking-luxury uppercase text-tennis-cream">Skeletal Tracing</h4>
                 <p className="text-[11px] text-slate-400 mt-3 leading-relaxed font-sans font-light tracking-wide">
-                  Hans tracks your anatomical landmarks using motion software, analyzing joint flexion and acceleration pathways.
+                  We overlay clean tracking lines over your limbs, checking your posture and joint positions frame-by-frame.
                 </p>
               </div>
             </div>
@@ -260,12 +260,12 @@ export default function Home({ setPage }) {
                     
                     <text x="65" y="38" fill="#00F0FF" fontSize="7" fontFamily="monospace" fontWeight="bold">126°</text>
                   </svg>
-                  <span className="absolute bottom-1 right-2 text-[7px] font-mono text-slate-500 tracking-wider">[ANGLE CALIBRATION]</span>
+                  <span className="absolute bottom-1 right-2 text-[7px] font-mono text-slate-500 tracking-wider">[DIAGNOSTIC ANGLES]</span>
                 </div>
 
-                <h4 className="font-display font-semibold text-sm tracking-luxury uppercase text-tennis-cream">90-Point Dashboard</h4>
+                <h4 className="font-display font-semibold text-sm tracking-luxury uppercase text-tennis-cream">Skeletal Scorecard</h4>
                 <p className="text-[11px] text-slate-400 mt-3 leading-relaxed font-sans font-light tracking-wide">
-                  Get your diagnostic charts measuring torque outputs, timing margins, and skeletal comparison coefficients.
+                  Get a simple visual scorecard showing your exact contact height, body rotation speeds, and knee bend angles.
                 </p>
               </div>
             </div>
@@ -292,12 +292,12 @@ export default function Home({ setPage }) {
                       transition={{ duration: 1, ease: "easeInOut" }}
                     />
                   </svg>
-                  <span className="absolute bottom-1 right-2 text-[7px] font-mono text-slate-500 tracking-wider">[MUSCLE PATTERNING]</span>
+                  <span className="absolute bottom-1 right-2 text-[7px] font-mono text-slate-500 tracking-wider">[DRILL PROGRESSION]</span>
                 </div>
 
-                <h4 className="font-display font-semibold text-sm tracking-luxury uppercase text-tennis-cream">Engineered Correction</h4>
+                <h4 className="font-display font-semibold text-sm tracking-luxury uppercase text-tennis-cream">Rebuild Your Stroke</h4>
                 <p className="text-[11px] text-slate-400 mt-3 leading-relaxed font-sans font-light tracking-wide">
-                  Train using target physical exercises prescribed by Hans to correct mechanical failures and secure muscle memory.
+                  Practice with targeted, easy-to-follow court drills designed to fix technical flaws and build solid habits.
                 </p>
               </div>
             </div>
@@ -322,7 +322,7 @@ export default function Home({ setPage }) {
             <div className="absolute inset-0 clay-court-overlay opacity-25 pointer-events-none" />
 
             <span className="text-xs text-tennis-gold font-bold tracking-ultra uppercase block mb-3 text-center">
-              Laboratory Diagnostics Suite
+              Signature Movement Analysis
             </span>
             
             <h3 className="text-3xl md:text-5xl font-display font-light text-tennis-cream text-center mb-10 tracking-wide">
@@ -330,43 +330,43 @@ export default function Home({ setPage }) {
             </h3>
             
             <p className="text-xs md:text-sm text-slate-400 text-center leading-relaxed max-w-2xl mx-auto mb-14 font-sans font-light tracking-wide">
-              Hans' advanced evaluation measures coordinates across your entire frame: stance coiling, knee deflection load, pelvic rotation separation, upper/lower spinal tilts, elbow angles, wrist release offsets, and follow-through trajectories.
+              We evaluate your complete swing mechanics: your foot placement, knee bend, hip turn, shoulder rotation, elbow extension, wrist release, and racquet path. We check everything to make your technique flawless.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto mb-14">
               <div className="flex items-start gap-4 bg-[#020d08]/85 border-luxury p-6 rounded-2xl backdrop-blur">
                 <Check className="w-4 h-4 text-tennis-gold shrink-0 mt-0.5" />
                 <div>
-                  <span className="block font-semibold text-tennis-cream text-xs tracking-luxury uppercase">Full Frame Calibration</span>
+                  <span className="block font-semibold text-tennis-cream text-xs tracking-luxury uppercase">Flawless Technique</span>
                   <span className="block text-[11px] text-slate-400 mt-2 leading-relaxed font-light">
-                    Skeletal angle metrics mapped through stance loading, release, and follow-through.
+                    We track your posture and body angles from preparation stance to contact and follow-through.
                   </span>
                 </div>
               </div>
               <div className="flex items-start gap-4 bg-[#020d08]/85 border-luxury p-6 rounded-2xl backdrop-blur">
                 <Check className="w-4 h-4 text-tennis-kinetic shrink-0 mt-0.5" />
                 <div>
-                  <span className="block font-semibold text-tennis-cream text-xs tracking-luxury uppercase">Kinetic Sequencing Values</span>
+                  <span className="block font-semibold text-tennis-cream text-xs tracking-luxury uppercase">Legs-to-Core Power</span>
                   <span className="block text-[11px] text-slate-400 mt-2 leading-relaxed font-light">
-                    Measure the millisecond timing delay of forces moving from your feet up to the hand.
+                    Measure how smoothly power flows from your feet up through your hips, core, and shoulder into the racquet.
                   </span>
                 </div>
               </div>
               <div className="flex items-start gap-4 bg-[#020d08]/85 border-luxury p-6 rounded-2xl backdrop-blur">
                 <Check className="w-4 h-4 text-tennis-diagnostic shrink-0 mt-0.5" />
                 <div>
-                  <span className="block font-semibold text-tennis-cream text-xs tracking-luxury uppercase">Strain Overload Mapping</span>
+                  <span className="block font-semibold text-tennis-cream text-xs tracking-luxury uppercase">Injury Prevention</span>
                   <span className="block text-[11px] text-slate-400 mt-2 leading-relaxed font-light">
-                    Pinpoint extreme joint deflection offsets before they translate to chronic tendon soreness.
+                    Identify awkward joint bends or timing errors that lead to Tennis Elbow before they keep you off the court.
                   </span>
                 </div>
               </div>
               <div className="flex items-start gap-4 bg-[#020d08]/85 border-luxury p-6 rounded-2xl backdrop-blur">
                 <Check className="w-4 h-4 text-tennis-gold shrink-0 mt-0.5" />
                 <div>
-                  <span className="block font-semibold text-tennis-cream text-xs tracking-luxury uppercase">Professional Benchmarking</span>
+                  <span className="block font-semibold text-tennis-cream text-xs tracking-luxury uppercase">Pro-Style Comparison</span>
                   <span className="block text-[11px] text-slate-400 mt-2 leading-relaxed font-light">
-                    Overlay your skeleton tracking side-by-side with professional baseline telemetry profiles.
+                    Compare your skeletal outline side-by-side with pro player templates to spot quick adjustments.
                   </span>
                 </div>
               </div>
@@ -441,12 +441,12 @@ export default function Home({ setPage }) {
             <div className="md:col-span-6 glass-card rounded-3xl border border-tennis-gold/25 p-8 md:p-10 relative">
               <div className="absolute inset-0 clay-court-overlay opacity-25 pointer-events-none" />
               
-              <span className="text-xs text-tennis-gold font-bold tracking-ultra uppercase block mb-2">Request Consultation</span>
-              <h4 className="text-2xl font-display font-light text-tennis-cream mb-6">Schedule Callback</h4>
+              <span className="text-xs text-tennis-gold font-bold tracking-ultra uppercase block mb-2">Book a Free Call</span>
+              <h4 className="text-2xl font-display font-light text-tennis-cream mb-6">Consult with Hans</h4>
               
               <form onSubmit={handleCallbackSubmit} className="space-y-6 relative z-10">
                 <div>
-                  <label className="block text-[9px] font-mono text-slate-400 uppercase tracking-ultra mb-2">Athlete Name</label>
+                  <label className="block text-[9px] font-mono text-slate-400 uppercase tracking-ultra mb-2">Your Name</label>
                   <input 
                     type="text" 
                     required
@@ -458,7 +458,7 @@ export default function Home({ setPage }) {
                 </div>
 
                 <div>
-                  <label className="block text-[9px] font-mono text-slate-400 uppercase tracking-ultra mb-2">Contact Number</label>
+                  <label className="block text-[9px] font-mono text-slate-400 uppercase tracking-ultra mb-2">Phone Number</label>
                   <input 
                     type="tel" 
                     required
@@ -471,7 +471,7 @@ export default function Home({ setPage }) {
 
                 <div className="pt-2">
                   <PremiumButton type="submit" className="w-full py-4">
-                    Send Callback Request
+                    Request Callback
                   </PremiumButton>
                 </div>
               </form>
@@ -482,16 +482,16 @@ export default function Home({ setPage }) {
               <div className="inline-flex items-center gap-2 border border-tennis-kinetic/30 bg-[#002B1A]/40 px-4 py-1.5 rounded-full w-fit">
                 <Mail className="w-3.5 h-3.5 text-tennis-kinetic" />
                 <span className="text-[10px] font-mono font-bold tracking-widest text-tennis-kinetic uppercase">
-                  Biomechanical Bulletin
+                  Pro Tennis Tips
                 </span>
               </div>
 
               <h3 className="text-3xl md:text-4xl font-display font-light text-tennis-cream leading-tight tracking-wide">
-                Receive Performance <span className="text-gold-luxury">Briefings</span>
+                Learn Pro <span className="text-gold-luxury">Swings</span>
               </h3>
               
               <p className="text-xs md:text-sm text-slate-400 leading-relaxed font-sans font-light tracking-widest uppercase">
-                Subscribe to receive case studies on ATP/WTA stroke dynamics and strain relief physical routines.
+                Subscribe to receive simple breakdowns of pro player strokes and court tips to sharpen your game.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3">
