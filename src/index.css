@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #020a06; /* tennis-dark */
+    font-family: 'Inter', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 0.05em;
+  }
+}
+
+@layer utilities {
+  /* Rich emerald luxury background gradients */
+  .bg-emerald-luxury {
+    background: radial-gradient(circle at 50% 50%, #002B1A 0%, #020a06 100%);
+  }
+
+  .bg-emerald-fade {
+    background: linear-gradient(180deg, #020a06 0%, #002B1A 50%, #020a06 100%);
+  }
+
+  /* Thin precise watchmaker borders (0.5px) */
+  .border-luxury {
+    border-width: 0.5px;
+    border-color: rgba(201, 162, 39, 0.12);
+  }
+
+  .border-luxury-cyan {
+    border-width: 0.5px;
+    border-color: rgba(0, 240, 255, 0.12);
+  }
+
+  /* PP Mori/Louis Vuitton tracking details */
+  .tracking-luxury {
+    letter-spacing: 0.22em;
+  }
+
+  .tracking-ultra {
+    letter-spacing: 0.35em;
+  }
+
+  /* Premium Glassmorphism Card style with subtle gold */
+  .glass-card {
+    background: rgba(0, 43, 26, 0.35);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border: 0.5px solid rgba(201, 162, 39, 0.12);
+    box-shadow: 0 15px 45px 0 rgba(0, 0, 0, 0.6);
+  }
+
+  .glass-card-hover {
+    transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .glass-card-hover:hover {
+    background: rgba(0, 43, 26, 0.55);
+    border-color: rgba(201, 162, 39, 0.45);
+    box-shadow: 0 20px 60px 0 rgba(201, 162, 39, 0.08), 0 0 30px 0 rgba(0, 240, 255, 0.04);
+    transform: translateY(-4px);
+  }
+
+  /* Luxurious Gold Text Gradient */
+  .text-gold-luxury {
+    background: linear-gradient(135deg, #FBF9F4 0%, #C9A227 50%, #876709 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Scientific Teal/Cyan Text Gradient */
+  .text-kinetic-gradient {
+    background: linear-gradient(135deg, #00DF9A 0%, #00F0FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Premium Border Glows */
+  .border-glow-gold {
+    box-shadow: 0 0 25px rgba(201, 162, 39, 0.25);
+  }
+
+  /* Biomechanical Background Dot Grid */
+  .bg-grid-pattern {
+    background-image: 
+      radial-gradient(circle, rgba(0, 43, 26, 0.18) 1px, transparent 1px),
+      radial-gradient(circle, rgba(0, 240, 255, 0.02) 1.5px, transparent 1.5px);
+    background-size: 32px 32px, 160px 160px;
+    background-position: 0 0, 16px 16px;
+  }
+
+  /* Diagonal Scanning Line (Radar/Scientific scan effect) */
+  .scanning-line {
+    background: linear-gradient(to bottom, transparent, rgba(0, 240, 255, 0.08) 50%, transparent);
+    animation: scan 10s linear infinite;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #020a06;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #002B1A;
+    border-radius: 3px;
+    border: 1px solid #020a06;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #C9A227;
+  }
+
+  /* Cinematic Slow-Zoom/Pan Animation */
+  .cinematic-zoom {
+    animation: breatheZoom 45s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes scan {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+@keyframes breatheZoom {
+  0% {
+    transform: scale(1.05) translate(0, 0);
+  }
+  100% {
+    transform: scale(1) translate(-1%, -1%);
+  }
+}
+
+/* Energy Chain flow dots */
+.kinetic-flow-line {
+  stroke-dasharray: 8 4;
+  animation: flow 30s linear infinite;
+}
+
+@keyframes flow {
+  from { stroke-dashoffset: 500; }
+  to { stroke-dashoffset: 0; }
+}
+
+/* Fine textures */
+.clay-court-overlay {
+  background-image: radial-gradient(rgba(201, 162, 39, 0.04) 1px, transparent 0);
+  background-size: 10px 10px;
+}
